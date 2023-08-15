@@ -1,0 +1,27 @@
+dotnet new webapi -o aspdockerapi 
+
+dotnet run
+
+touch Dockerfile
+
+docker build -t dockerwebapi -f Dockerfile .
+
+docker images
+
+docker run -ti --rm -p 8080:80 dockerwebapi
+
+docker tag dockerwebapi mkrstvm/kubernetes:dockerwebapi => create a tag in docker repo
+
+kubectl scale deployment hello-dotnet --replicas=4 => to scale
+
+
+docker push mkrstvm/kubernetes:dockerwebapi => push to docker repo
+
+ kubectl apply -f deployment.yaml => create kubernetes deployment
+
+  kubectl apply -f service.yaml => create load balancer for exteran to access
+
+
+
+
+

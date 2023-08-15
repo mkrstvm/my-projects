@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/_mkrs_/MyGit/microservices/Core-Microservices/Play.Common/src/Play.Common/Play.Common.csproj": {}
+  },
+  "projects": {
+    "/Users/_mkrs_/MyGit/microservices/Core-Microservices/Play.Common/src/Play.Common/Play.Common.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/_mkrs_/MyGit/microservices/Core-Microservices/Play.Common/src/Play.Common/Play.Common.csproj",
+        "projectName": "Play.Common",
+        "projectPath": "/Users/_mkrs_/MyGit/microservices/Core-Microservices/Play.Common/src/Play.Common/Play.Common.csproj",
+        "packagesPath": "/Users/_mkrs_/.nuget/packages/",
+        "outputPath": "/Users/_mkrs_/MyGit/microservices/Core-Microservices/Play.Common/src/Play.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/_mkrs_/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/Users/_mkrs_/MyGit/microservices/Core-Microservices/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

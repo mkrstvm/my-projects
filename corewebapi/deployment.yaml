@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: corewebapi
+  name: corewebapi
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: corewebapi
+  template:
+    metadata:
+      labels:
+        run: corewebapi
+    spec:
+      containers:
+      - name: corewebapi
+        image: mkrstvm/kubernetes:dockerwebapi
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
