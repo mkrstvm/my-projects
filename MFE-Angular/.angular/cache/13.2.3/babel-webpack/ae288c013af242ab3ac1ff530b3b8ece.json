@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  moduleFederationUrl: {\n    app1: 'https://module-federation-app1.web.app/',\n    app2: 'https://module-federation-app2.web.app/',\n    app3: 'https://module-federation-app3.web.app/'\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

@@ -4,7 +4,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {ReactiveFormsModule} from "@angular/forms";
-import {UtilsModule} from "utils";
+import { UtilsModule } from 'projects/utils/src/public-api';
+
 
 @NgModule({
   declarations: [

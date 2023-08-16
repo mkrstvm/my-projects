@@ -1,6 +1,7 @@
 import {Component, ComponentFactoryResolver, OnInit, ViewContainerRef} from '@angular/core';
 import {mfe} from "../../app-routing.module";
-import {FileType} from "utils";
+import { FileType } from 'projects/utils/src/public-api';
+
 
 @Component({
   selector: 'pmo-mfe-order-component',
@@ -17,7 +18,7 @@ export class MfeOrderComponentComponent implements OnInit {
         remoteEntry: `http://localhost:4205/remoteOrders.js`,
         exposedFile: "OrderComponent",
         exposeFileType: FileType.Component,
-      }).then((m) => m.OrderComponent);
+      }).then((m: { OrderComponent: any; }) => m.OrderComponent);
 
     this.viewCRef.createComponent(OrderComponent);
   }
