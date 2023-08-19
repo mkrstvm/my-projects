@@ -1,0 +1,15 @@
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/bin/Debug/net7.0/HttpClient
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/bin/Debug/net7.0/HttpClient.deps.json
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/bin/Debug/net7.0/HttpClient.runtimeconfig.json
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/bin/Debug/net7.0/HttpClient.dll
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/bin/Debug/net7.0/HttpClient.pdb
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.csproj.AssemblyReference.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.AssemblyInfoInputs.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.AssemblyInfo.cs
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.csproj.CoreCompileInputs.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.dll
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/refint/HttpClient.dll
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.pdb
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/HttpClient.genruntimeconfig.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/asp.netcore-webapi-db-access/HttpClient/obj/Debug/net7.0/ref/HttpClient.dll
