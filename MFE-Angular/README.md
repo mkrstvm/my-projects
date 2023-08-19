@@ -1,16 +1,24 @@
+# Steps to follow in MFE world
+
+1. Project Setup - each plugin as differetn project
+2. Update Angular configuration file // angular.json - whihc will list the config for each projects
+3. Configure Webpack files webpack.config.ts for each project and which will convey its plugin configuration
+4. Add a shared library to hold Module Federation Operations and from where it will have logic to load different pplugins as per the route.
+5. Dynamically Load Remote Containers
+
 # Module Federation Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
 
 ## Development server
- 
+
 To start this application for a dev server.
 
 - Run npm Install `npm install`
-- Build shared lib Run `build:utils` 
+- Build shared lib Run `build:utils`
 - Start all mfe Apps Run `start:all`
 
-## View each app 
+## View each app
 
 - app1-home `http://localhost:4203/`
 - app1-restaurants `http://localhost:4204/`
