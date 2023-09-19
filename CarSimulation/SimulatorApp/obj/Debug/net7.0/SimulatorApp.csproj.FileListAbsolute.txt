@@ -1,0 +1,15 @@
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/bin/Debug/net7.0/SimulatorApp
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/bin/Debug/net7.0/SimulatorApp.deps.json
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/bin/Debug/net7.0/SimulatorApp.runtimeconfig.json
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/bin/Debug/net7.0/SimulatorApp.dll
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/bin/Debug/net7.0/SimulatorApp.pdb
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.csproj.AssemblyReference.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.AssemblyInfoInputs.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.AssemblyInfo.cs
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.csproj.CoreCompileInputs.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.dll
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/refint/SimulatorApp.dll
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.pdb
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/SimulatorApp.genruntimeconfig.cache
+/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorApp/obj/Debug/net7.0/ref/SimulatorApp.dll

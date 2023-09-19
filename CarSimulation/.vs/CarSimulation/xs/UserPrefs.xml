@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{EE83E7EF-B571-4F68-8120-209B44DEE8B3}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorAppTest/CarSimualtorTest.cs" relfile="SimulatorAppTest/CarSimualtorTest.cs" line="48" column="1" />
+      <Breakpoint file="/Users/_mkrs_/MyWorks/repositories/my-projects/CarSimulation/SimulatorAppTest/AutoDriverTest.cs" relfile="SimulatorAppTest/AutoDriverTest.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SimulatorApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimulatorAppTest/AutoDriverTest.cs">
+    <Files>
+      <File FileName="SimulatorApp/SimulatorFactory/ISimulator.cs" Line="21" Column="25" />
+      <File FileName="SimulatorApp/Commands/RightCommand.cs" Line="15" Column="35" />
+      <File FileName="SimulatorApp/Models/Position.cs" />
+      <File FileName="SimulatorAppTest/Usings.cs" />
+      <File FileName="SimulatorAppTest/CommandTests.cs" Line="32" Column="33" />
+      <File FileName="SimulatorApp/Commands/LeftCommand.cs" Line="27" Column="19" />
+      <File FileName="SimulatorApp/Commands/ForwardCommand.cs" Line="15" Column="55" />
+      <File FileName="SimulatorApp/SimulatorFactory/CarSimulator.cs" Line="93" Column="159" />
+      <File FileName="SimulatorApp/AutoDriver.cs" Line="28" Column="1" />
+      <File FileName="SimulatorApp/Commands/ISimulatorCommand.cs" Line="9" Column="39" />
+      <File FileName="SimulatorApp/SimulatorFactory/SimulatorFactory.cs" Line="17" Column="44" />
+      <File FileName="SimulatorApp/Program.cs" Line="7" Column="42" />
+      <File FileName="SimulatorApp/InputHandler/InputHandler.cs" Line="48" Column="75" />
+      <File FileName="SimulatorApp/SimulatorField.cs" Line="1" Column="1" />
+      <File FileName="SimulatorApp/Scheduler/SequentialScheduler.cs" Line="9" Column="37" />
+      <File FileName="SimulatorApp/Scheduler/SimulatorSchedulerContext.cs" Line="20" Column="1" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/7.0.101/Microsoft.Common.CurrentVersion.targets" Line="4752" Column="5" />
+      <File FileName="SimulatorApp/VehicleFactory/Car.cs" Line="11" Column="93" />
+      <File FileName="SimulatorApp/VehicleFactory/Vehicle.cs" Line="31" Column="19" />
+      <File FileName="SimulatorApp/Scheduler/IScheduler.cs" Line="1" Column="1" />
+      <File FileName="SimulatorApp/ReadMe.txt" Line="27" Column="145" />
+      <File FileName="SimulatorAppTest/CarSimualtor.cs" Line="31" Column="24" />
+      <File FileName="SimulatorAppTest/AutoDriverTest.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CarSimulation" expanded="True">
+            <Node name="SimulatorApp" expanded="True">
+              <Node name="Commands" expanded="True" />
+              <Node name="InputHandler" expanded="True" />
+              <Node name="SimulatorFactory" expanded="True" />
+              <Node name="AutoDriver.cs" selected="True" />
+            </Node>
+            <Node name="SimulatorAppTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>simualtor.Vehicle.CurrentPosition</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CarSimulation" expanded="True">
+            <Node name="SimulatorAppTest" expanded="True">
+              <Node name="SimulatorAppTest" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
