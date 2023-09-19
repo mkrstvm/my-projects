@@ -11,12 +11,14 @@ namespace SimulatorAppTest;
 public class CommandTests
 {
     Mock<ISimulator> _simualtor;
-    Car _car = new Car("A", new SimulatorApp.Models.Position(10, 10), SimulatorApp.Models.Direction.E);
-    string[,] _field = new string[100, 100];
+    Car _car;
+    string[,] _field;
 
     [SetUp]
     public void Setup()
-    {        
+    {
+        _car = new Car("A", new SimulatorApp.Models.Position(10, 10), SimulatorApp.Models.Direction.E);
+        _field = new string[100, 100];
 
         _simualtor = new Mock<ISimulator>();
         _simualtor.Setup(x => x.Vehicle).Returns(_car);

@@ -10,13 +10,15 @@ namespace SimulatorAppTest
 {
 	public class CarSimualtorTest
 	{
-        string[,] _field = new string[100, 100];
-        Car _car = new Car("A", new SimulatorApp.Models.Position(10, 10), SimulatorApp.Models.Direction.E);
+        string[,] _field ;
+        Car _car ;
 
         [SetUp]
         public void Setup()
         {
-		}
+            _car = new Car("A", new SimulatorApp.Models.Position(10, 10), SimulatorApp.Models.Direction.E);
+            _field = new string[100, 100];
+        }
 
 		[TestCase("F")]
 		public void SimulationTest(string command)

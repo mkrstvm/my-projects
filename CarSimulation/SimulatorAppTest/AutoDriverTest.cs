@@ -22,18 +22,14 @@ namespace SimulatorAppTest
 
         }
 
-
-        [Test]
-		public void RunTest()
+        [TestCase(true, "- A, (1,2) N, FFRFFFFRRL\n- B, (7,8) W, FFLFFFFFFF")]
+        [TestCase(false, "- A, collides with B at (5,4) at step 7\n- B, collides with A at (5,4) at step 7")]
+        public void RunTest(bool beforeSimulation, string expected)
 		{
 			_driver.Run();
 
-			var status = _driver.GetStatus(true);
-
-            Assert.That(status, Is.EqualTo("- A, (1,2) N, FFRFFFFRRL\n- B, (7,8) W, FFLFFFFFFF"));
-            status = _driver.GetStatus(false);
-            Assert.That(status, Is.EqualTo("- A, collides with B at (5,4) at step 7\n- B, collides with A at (5,4) at step 7"));
-
+			var status = _driver.GetStatus(beforeSimulation);
+            Assert.That(status, Is.EqualTo(expected));
         }
 	}
 }
